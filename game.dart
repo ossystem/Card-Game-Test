@@ -13,7 +13,7 @@ void main() {
   while (true) {
     final input = stdin.readLineSync();
     if (input == 'deal') {
-      print("Write num of cards do be dealt:");
+      print("Write num of cards to be dealt:");
       final cards = stdin.readLineSync();
       print("Write num of players:");
       final players = stdin.readLineSync();
