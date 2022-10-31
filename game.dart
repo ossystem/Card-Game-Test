@@ -98,10 +98,6 @@ class Game {
   Deck deck = Deck();
   List<Player> players = [];
 
-  bool isNumeric(String s) {
-    return int.tryParse(s) != null;
-  }
-
   void deal({String? cards, String? playersCount}) {
     if (cards == null || playersCount == null) {
       return;
